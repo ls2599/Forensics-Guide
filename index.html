@@ -1,1 +1,200 @@
-<h1> hello world </h1>
+<head>
+    body {
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: #DDDDDD;
+}
+body{
+	font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color:#333333;
+}
+TopNav a {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f5a06e;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+container {
+	height: 768px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+InnerContent1 {
+	padding-bottom: 60px;
+}
+InnerContent1a {
+	padding-bottom: 100px;
+}
+InnerContent1b {
+	padding-bottom: 100px;
+}
+header {
+	height: 250px;
+	width: 989px;
+	background-color: #FFFFFF;
+	color: #000;
+	text-align: center;
+}
+BottomNav a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f5a06e;
+}
+TitleBar {
+	height: 35px;
+	width: 1024px;
+	background-color: #ffcc00;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+main {
+	height: 448px;
+	width: 1024px;
+}
+InnerMain {
+	background-color: #ffcc00;
+	height: 448px;
+	width: 1024px;
+	border-radius: 15px;
+}
+main content1 {
+	height: 448px;
+	width: 728px;
+	float: left;
+	overflow: hidden;
+	background-color: #936;
+}
+main content2 {
+	height: 448px;
+	width: 296px;
+	float: right;
+	overflow: hidden;
+	background-color: #939;
+	word-spacing: normal;
+	line-height: 1.4em;
+}
+TopNav {
+	height: 52px;
+	width: 1019px;
+	padding-top: 3px;
+	padding-left: 5px;
+	color: #FFF;
+	background-color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+	height: 100px;
+	width: 1024px;
+}
+footer BottomNav {
+	height: 50px;
+	width: 1025px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding-top: 75px;
+	white-space: nowrap;
+}
+BottomNav a {
+	color: #f5a06e;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 15px;
+	padding-top: 10px;
+	text-align: center;
+}
+h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 4.5em;
+}
+h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.75em;
+}
+TopNav a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #f5a06e;
+}
+</head>
+
+<body>
+    <?php
+        if (array_key_exists('content', $_POST)) {
+        echo "You wrote:<pre>\n";
+        echo htmlspecialchars($_POST['content']);
+        echo "\n</pre>";
+        }
+    ?>
+    <form action="/sign" method="post">
+        <div><textarea name="content" rows="3" cols="60"></textarea></div>
+        <div><input type="submit" value="Sign Guestbook"></div>
+    </form>
+    <div id="container">
+    <nav id="TopNav">Logo 
+    <a href="£">Home</a>
+    </nav><!-- end TopNav-->
+    
+    <div id="TitleBar">
+      <h2>HOME </h2>
+    </div>
+    <!--end TittleBar-->
+    
+    <div id="main">
+        <div id="InnerMain">
+    
+            <div id="content1">
+            <h2>&nbsp;</h2>
+            <h2>Header Text</h2>
+            
+                <div id="InnerContent1">
+                  <p>Text</p>
+                </div><!--end InnerContent1-->
+                
+                <div id="InnerContent1a">
+                <p>Text</p>
+                </div><!--end InnerContnent1a-->
+                
+                <div id="InnerContent1b">
+                <p>Text</p>
+                </div><!--end InnerXContent1b-->
+        
+                <break>
+                </div><!-- end content1-->
+                
+          <div id="content2">
+            <h2><underlined>HeaderText</underlined></h2>
+            <p>text</p>
+            <p> text</p>
+            <p> text</p>
+            <p> text </p>
+        </div> <!-- end content2-->
+        </div><!--end InnerMain-->
+    </div> <!--end main-->
+    
+    <footer>
+        <nav id="BottomNav">
+            <a href="£">Contact Us</a>
+            <a href="£">Cookie Policy</a>
+            <a href="£">Terms of Service</a> 
+            <a href="£">Pricacy Policy </a>
+        </nav> <!-- end BottomNav-->
+    </footer>
+    </div> <!--end container-->
+</body>
+</html>
