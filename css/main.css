@@ -1,7 +1,7 @@
 
 head {
-	height: 250px;
-	width: 989px;
+	height: 250;
+	width: 989;
 	background-color: #FFFFFF;
 	color: #000;
 	text-align: center;
@@ -11,8 +11,8 @@ body {
     	font-family: Verdana, Helvetica, sans-serif;
     	background-color: #DDDDDD;
 	font-family: Arial, Helvetica, Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	line-height: 1.5em;
+	font-size: 14;
+	line-height: 1.5;
 	color:#333333;
 }
 
@@ -29,24 +29,24 @@ container {
 }
 
 main1 {
-	height: 224px;
-	width: 1024px;
+	height: 224;
+	width: 1024;
 	background-color: #FF0000;
 }
 
 main1 content1 {
-	height: 50px;
-	width: 160px;
+	height: 50;
+	width: 160;
 	float: left;
-	padding-left: 100px;
+	padding-left: 100;
 	overflow: hidden;
 	background-color: #0099FF;
 }
 main1 content2 {
-	height: 50px;
-	width: 160px;
+	height: 50;
+	width: 160;
 	float: left;
-	padding-left: 260px;
+	padding-left: 260;
 	overflow: hidden;
 	background-color: #939;
 	word-spacing: normal;
@@ -54,47 +54,47 @@ main1 content2 {
 }
 
 main1 content3 {
-	height: 50px;
-	width: 160px;
+	height: 50;
+	width: 160;
 	float: left;
-	padding-left: 420px;
+	padding-left: 420;
 	overflow: hidden;
 	background-color: #939;
 	word-spacing: normal;
-	line-height: 1.4em;
+	line-height: 1.4;
 }
 
 main1 content4 {
-	height: 50px;
-	width: 160px;
+	height: 50;
+	width: 160;
 	float: left;
-	padding-left: 580px;
+	padding-left: 580;
 	overflow: hidden;
 	background-color: #939;
 	word-spacing: normal;
-	line-height: 1.4em;
+	line-height: 1.4;
 }
 
 main1 content5 {
-	height: 50px;
-	width: 160px;
+	height: 50;
+	width: 160;
 	float: left;
-	padding-left: 740px;
+	padding-left: 740;
 	overflow: hidden;
 	background-color: #939;
 	word-spacing: normal;
-	line-height: 1.4em;
+	line-height: 1.4;
 }
 main2 {
-	height: 224px;
-	width: 1024px
+	height: 224;
+	width: 1024;
 }
 
 h1 {
 	font-family: "Courier New", Courier, monospace;
-	font-size: 4.5em;
+	font-size: 4.5;
 }
 
 h2 {
-	font-size: 1.75em;
+	font-size: 1.75;
 }
