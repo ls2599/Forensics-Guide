@@ -1,4 +1,3 @@
-<head>
     body {
     font-family: Verdana, Helvetica, sans-serif;
     background-color: #DDDDDD;
@@ -131,29 +130,18 @@ TopNav a:hover {
 	border-bottom-style: solid;
 	border-bottom-color: #f5a06e;
 }
+<head>
+  <h1>Welcome to the site!</h1>
 </head>
 
 <body>
-    <?php
-        if (array_key_exists('content', $_POST)) {
-        echo "You wrote:<pre>\n";
-        echo htmlspecialchars($_POST['content']);
-        echo "\n</pre>";
-        }
-    ?>
-    <form action="/sign" method="post">
-        <div><textarea name="content" rows="3" cols="60"></textarea></div>
-        <div><input type="submit" value="Sign Guestbook"></div>
-    </form>
-    <div id="container">
-    <nav id="TopNav">Logo 
-    <a href="£">Home</a>
+ /* <div id="container">
+    <nav id="TopNav">
     </nav><!-- end TopNav-->
     
     <div id="TitleBar">
-      <h2>HOME </h2>
-    </div>
-    <!--end TittleBar-->
+      <h2>HOME</h2>
+    </div><!--end TittleBar-->
     
     <div id="main">
         <div id="InnerMain">
