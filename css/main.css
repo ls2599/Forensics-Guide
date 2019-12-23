@@ -31,6 +31,7 @@ container {
 main1 {
 	height: 224px;
 	width: 1024px;
+	background-color: #FF0000;
 }
 
 main1 content1 {
@@ -39,7 +40,7 @@ main1 content1 {
 	float: left;
 	padding-left: 100px;
 	overflow: hidden;
-	background-color: #936;
+	background-color: #0099FF;
 }
 main1 content2 {
 	height: 50px;
