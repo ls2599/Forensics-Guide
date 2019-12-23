@@ -22,21 +22,21 @@ TopNav {
 }	
 
 container {
-	height: 768px;
-	width: 1024px;
+	height: 768cm;
+	width: 1024cm;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 main1 {
-	height: 224;
-	width: 1024;
+	height: 224cm;
+	width: 1024cm;
 	background-color: #FF0000;
 }
 
 main1 content1 {
-	height: 50;
-	width: 160;
+	height: 50cm;
+	width: 160cm;
 	float: left;
 	padding-left: 100;
 	overflow: hidden;
